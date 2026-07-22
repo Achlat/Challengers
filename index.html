@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Challengers Tennis Association - Accueil | Lomé, Togo</title>
+<meta name="description" content="Association Challengers - Promotion du tennis à Lomé, Togo. Découvrez la Holidays Cup, notre tournoi annuel, du 27 juillet au 02 août.">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<link rel="icon" href="images/logo-challengers.png">
+<script>
+tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#2D5016'},borderRadius:{none:'0px',sm:'4px',DEFAULT:'8px',md:'12px',lg:'16px',xl:'20px','2xl':'24px','3xl':'32px',full:'9999px',button:'8px'},fontFamily:{heading:['Montserrat','sans-serif'],body:['Open Sans','sans-serif']}}}}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav-fixed" id="mainNav">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between">
+<a href="index.html" class="nav-logo-badge flex items-center">
+<img src="images/logo-challengers.png" alt="Challengers Tennis Association" class="h-9 w-auto">
+</a>
+<div class="hidden lg:flex items-center gap-7">
+<a href="index.html" class="text-white hover:text-primary transition font-semibold active">Accueil</a>
+<a href="our-club.html" class="text-white hover:text-primary transition font-semibold">Notre Club</a>
+<a href="events.html" class="text-white hover:text-primary transition font-semibold">Tournoi</a>
+<a href="membership.html" class="text-white hover:text-primary transition font-semibold">Adhésion</a>
+<a href="gallery.html" class="text-white hover:text-primary transition font-semibold">Galerie</a>
+<a href="contact.html" class="text-white hover:text-primary transition font-semibold">Contact</a>
+<a href="membership.html" class="btn-primary !py-2.5 !px-5 text-sm">S'inscrire</a>
+</div>
+<button class="lg:hidden text-white w-10 h-10 flex items-center justify-center" id="menuToggle">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+<div class="lg:hidden hidden mt-4 pb-4 bg-white rounded-lg shadow-lg px-5 pt-2" id="mobileMenu">
+<a href="index.html" class="block text-secondary font-semibold py-2 border-b border-gray-100">Accueil</a>
+<a href="our-club.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Notre Club</a>
+<a href="events.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Tournoi</a>
+<a href="membership.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Adhésion</a>
+<a href="gallery.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Galerie</a>
+<a href="contact.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2">Contact</a>
+</div>
+</div>
+</nav>
+
+<section class="hero-bg" style="background-image:url('images/tennis-aerial-court.jpg');min-height:100vh;">
+<div class="hero-overlay" style="position:absolute;inset:0;"></div>
+<div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center min-h-screen py-32">
+<div class="edition-badge mb-8 fade-in">
+<img src="images/holidays-cup-5ans-badge.png" alt="Holidays Cup 5 ans">
+<div class="text-left">
+<p class="font-heading font-extrabold text-secondary text-lg leading-tight">Holidays Cup</p>
+<p class="text-gray-600 text-sm font-semibold">5ème Édition</p>
+</div>
+</div>
+<h1 class="w-full text-4xl md:text-6xl font-heading font-extrabold text-white mb-4 leading-tight fade-in">Tournoi Holidays Cup<br><span class="text-primary">5ème Édition !</span></h1>
+<p class="w-full text-xl md:text-2xl text-white mb-10 font-light fade-in">Du 27 Juillet au 02 Août</p>
+
+<div class="countdown w-full mb-10 fade-in" data-target="2026-07-27T00:00:00">
+<div class="countdown-box cd-days"><div class="num">00</div><div class="label">Jours</div></div>
+<div class="countdown-box cd-hours"><div class="num">00</div><div class="label">Heures</div></div>
+<div class="countdown-box cd-min"><div class="num">00</div><div class="label">Minutes</div></div>
+<div class="countdown-box cd-sec"><div class="num">00</div><div class="label">Secondes</div></div>
+</div>
+
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in">
+<a href="membership.html" class="btn-primary">Voir les Inscriptions</a>
+<a href="events.html" class="btn-secondary">Découvrir le Tournoi</a>
+</div>
+</div>
+</section>
+
+<section class="py-20 md:py-28 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-14 items-center">
+<div class="fade-in">
+<p class="text-primary font-heading font-bold tracking-wide mb-2">BIENVENUE À L'ASSOCIATION CHALLENGERS !</p>
+<h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Une association dédiée à la promotion du tennis à Lomé.</h2>
+<p class="text-gray-600 leading-relaxed mb-4">L'Association Challengers organise chaque année, pendant les vacances scolaires, un grand tournoi de tennis ouvert à tous : la Holidays Cup. Nous soufflons cette année nos 5 bougies : la 5ème édition se déroule du 27 juillet au 02 août, avec des tableaux en Simple Messieurs, Simple Dames, Double Messieurs et Vétérans, en partenariat avec la Fédération Togolaise de Tennis (FTT) et le Cacaveli Tennis Club.</p>
+<p class="text-gray-600 leading-relaxed">Au programme : des matches disputés du 16ème de finale jusqu'à la grande finale, plus de 3.000.000 F CFA de dotations et deux motos TVS Apache à gagner pour les champions. Un rendez-vous devenu incontournable pour les passionnés de tennis du Togo.</p>
+</div>
+<div class="fade-in">
+<img src="images/tournoi-match-reel.jpg" alt="Match de tennis - Association Challengers" class="rounded-xl shadow-xl w-full h-[420px] object-cover">
+</div>
+</div>
+</section>
+
+<section class="py-20 md:py-28 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="card p-8 text-center fade-in">
+<div class="icon-box mx-auto mb-6"><img src="images/37.png" alt="Championnats"></div>
+<h3 class="text-xl font-heading font-bold mb-3">Championnats</h3>
+<p class="text-gray-600 leading-relaxed text-sm">Un tournoi structuré du 16ème de finale à la grande finale, ouvert à tous les niveaux de jeu.</p>
+</div>
+<div class="card p-8 text-center fade-in">
+<div class="icon-box mx-auto mb-6"><img src="images/38.png" alt="Encadrement"></div>
+<h3 class="text-xl font-heading font-bold mb-3">Encadrement</h3>
+<p class="text-gray-600 leading-relaxed text-sm">Des entraîneurs qualifiés accompagnent nos membres pour progresser à tout âge.</p>
+</div>
+<div class="card p-8 text-center fade-in">
+<div class="icon-box mx-auto mb-6"><img src="images/39.png" alt="Adhésion"></div>
+<h3 class="text-xl font-heading font-bold mb-3">Adhésion</h3>
+<p class="text-gray-600 leading-relaxed text-sm">Rejoignez l'Association Challengers et participez à la vie de notre communauté tennistique.</p>
+</div>
+<div class="card p-8 text-center fade-in">
+<div class="icon-box mx-auto mb-6"><img src="images/40.png" alt="Événements"></div>
+<h3 class="text-xl font-heading font-bold mb-3">Événements</h3>
+<p class="text-gray-600 leading-relaxed text-sm">Tournois, stages et rencontres organisés tout au long de l'année pour nos membres.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-20 bg-white">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="quote-block fade-in">
+<i class="ri-double-quotes-l"></i>
+<p class="text-xl md:text-2xl font-heading italic text-gray-800 my-4 leading-relaxed">Au tennis, ce n'est pas l'adversaire qu'il faut craindre, c'est l'échec lui-même, sachant à quel point on était proche du but sans l'atteindre.</p>
+<p class="text-primary font-semibold">— Andy Murray</p>
+</div>
+</div>
+</section>
+
+<section class="py-24 relative hero-bg" style="background-image:url('images/tennis-parc-coup-droit.jpg')">
+<div style="position:absolute;inset:0;background:rgba(13,26,10,0.82)"></div>
+<div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
+<h2 class="text-3xl md:text-5xl font-heading font-bold text-white mb-6">Le Tennis Coule Dans Nos Veines</h2>
+<p class="text-lg text-gray-200 mb-4">Rejoignez une communauté passionnée de tennis.</p>
+<p class="text-gray-300 mb-10 leading-relaxed">Devenez membre de l'Association Challengers et participez à nos tournois, entraînements et événements tout au long de l'année.</p>
+<a href="membership.html" class="btn-primary">Voir les Inscriptions <i class="ri-arrow-right-line ml-1"></i></a>
+</div>
+</section>
+
+<section class="py-20 md:py-28 bg-gray-50">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+<div class="fade-in order-2 lg:order-1">
+<img src="images/tournoi-affiche.jpg" alt="Affiche officielle - Holidays Cup 5ème Édition" class="rounded-xl shadow-xl w-full max-w-sm mx-auto">
+</div>
+<div class="fade-in order-1 lg:order-2">
+<h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Affiches du Tournoi</h2>
+<p class="text-gray-600 leading-relaxed mb-8">Toutes les informations officielles de la Holidays Cup : catégories, frais d'inscription et dotations.</p>
+<a href="events.html" class="text-secondary font-bold hover:text-primary transition inline-flex items-center gap-2">Voir le détail du tournoi <i class="ri-arrow-right-line"></i></a>
+</div>
+</div>
+</section>
+
+<footer class="bg-gray-900 text-gray-300 py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-12 mb-12">
+<div class="md:col-span-2">
+<img src="images/logo-challengers.png" alt="Challengers Tennis Association" class="h-12 w-auto mb-4 bg-white rounded-lg p-2 inline-block">
+<p class="text-gray-400 leading-relaxed max-w-md">Une association dédiée à la promotion du tennis à Lomé. Organisatrice du tournoi annuel Holidays Cup, en partenariat avec la Fédération Togolaise de Tennis et le Cacaveli Tennis Club.</p>
+</div>
+<div>
+<h4 class="text-white font-heading font-bold text-lg mb-4">Liens Rapides</h4>
+<ul class="space-y-2">
+<li><a href="index.html" class="hover:text-primary transition">Accueil</a></li>
+<li><a href="our-club.html" class="hover:text-primary transition">Notre Club</a></li>
+<li><a href="events.html" class="hover:text-primary transition">Tournoi</a></li>
+<li><a href="membership.html" class="hover:text-primary transition">Adhésion</a></li>
+<li><a href="gallery.html" class="hover:text-primary transition">Galerie</a></li>
+<li><a href="contact.html" class="hover:text-primary transition">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-heading font-bold text-lg mb-4">Coordonnées</h4>
+<ul class="space-y-3 text-sm">
+<li class="flex items-start gap-2"><i class="ri-map-pin-line mt-1"></i><span>Qt Amadahome, 22 B.P. 72<br>Lomé 22 - Togo</span></li>
+<li class="flex items-center gap-2"><i class="ri-phone-line"></i><a href="tel:+22890185088" class="hover:text-primary transition">+228 90 18 50 88</a></li>
+<li class="flex items-center gap-2"><i class="ri-mail-line"></i><a href="mailto:associationchallengers@gmail.com" class="hover:text-primary transition">associationchallengers@gmail.com</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+<p class="text-gray-500 text-sm">Qt Amadahome, 22 B.P. 72, Lomé 22 - Togo · +228 90 18 50 88 · associationchallengers@gmail.com</p>
+<p class="text-gray-500 text-sm">© 2026 Challengers Tennis Association. Tous droits réservés.</p>
+</div>
+</div>
+</footer>
+
+<a href="https://wa.me/22890185088?text=Bonjour,%20je%20souhaite%20obtenir%20des%20informations%20sur%20Challengers%20Tennis%20Association" class="whatsapp-btn" target="_blank" rel="noopener">
+<i class="ri-whatsapp-fill text-white text-3xl"></i>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
