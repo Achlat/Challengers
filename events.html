@@ -28,6 +28,7 @@ tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#2D5016'},b
 <a href="index.html" class="text-white hover:text-primary transition font-semibold">Accueil</a>
 <a href="our-club.html" class="text-white hover:text-primary transition font-semibold">Notre Club</a>
 <a href="events.html" class="text-white hover:text-primary transition font-semibold active">Tournoi</a>
+<a href="actualites.html" class="text-white hover:text-primary transition font-semibold">Actualités</a>
 <a href="membership.html" class="text-white hover:text-primary transition font-semibold">Adhésion</a>
 <a href="gallery.html" class="text-white hover:text-primary transition font-semibold">Galerie</a>
 <a href="contact.html" class="text-white hover:text-primary transition font-semibold">Contact</a>
@@ -41,6 +42,7 @@ tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#2D5016'},b
 <a href="index.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Accueil</a>
 <a href="our-club.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Notre Club</a>
 <a href="events.html" class="block text-secondary font-semibold py-2 border-b border-gray-100">Tournoi</a>
+<a href="actualites.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Actualités</a>
 <a href="membership.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Adhésion</a>
 <a href="gallery.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2 border-b border-gray-100">Galerie</a>
 <a href="contact.html" class="block text-gray-700 hover:text-secondary transition font-semibold py-2">Contact</a>
@@ -48,7 +50,7 @@ tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#2D5016'},b
 </div>
 </nav>
 
-<header class="page-header" style="background-image:url('images/tournoi-match-reel.jpg');min-height:52vh">
+<header class="page-header" style="background-image:url('images/WhatsApp Image 2026-07-23 at 22.35.26.jpeg');min-height:52vh">
 <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 fade-in">
 <h1 class="text-4xl md:text-6xl font-heading font-extrabold text-white mb-4">Le Tournoi Holidays Cup</h1>
 <p class="text-lg md:text-xl text-gray-200">5ème édition - Un rendez-vous incontournable du tennis togolais.</p>
@@ -104,26 +106,40 @@ tailwind.config={theme:{extend:{colors:{primary:'#D4AF37',secondary:'#2D5016'},b
 </section>
 
 <section class="py-20 md:py-28 bg-white">
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h2 class="text-3xl md:text-4xl font-heading font-bold mb-4 fade-in">Vidéo de Présentation</h2>
-<p class="text-gray-600 mb-10 fade-in">Découvrez en images l'annonce de la 5ème édition de la Holidays Cup.</p>
-<div class="rounded-xl overflow-hidden shadow-2xl fade-in">
-<video controls poster="images/tournoi-affiche.jpg" class="w-full bg-black" style="max-height:520px">
-<source src="videos/holidays-cup-presentation.mp4" type="video/mp4">
-Votre navigateur ne prend pas en charge la lecture vidéo.
-</video>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+<div class="fade-in overflow-hidden rounded-xl shadow-lg h-80 order-2 lg:order-1">
+<img src="images/Logo CTC-02.png" alt="Cacaveli Tennis Club" class="w-full h-full object-contain bg-white p-10">
+</div>
+<div class="fade-in order-1 lg:order-2">
+<p class="text-primary font-heading font-bold tracking-wide mb-2">LE LIEU DU TOURNOI</p>
+<h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">La Holidays Cup se joue à Cacaveli</h2>
+<p class="text-gray-600 leading-relaxed mb-4">Que les choses soient claires : c'est bien l'<strong>Association Challengers</strong> qui organise la Holidays Cup de A à Z, chaque année. Le tournoi se déroule sur les courts du <strong>Cacaveli Tennis Club</strong>, à Lomé, qui accueille les joueurs et le public pendant toute la durée de la compétition.</p>
+<p class="text-gray-600 leading-relaxed">Cette collaboration entre Challengers et le Cacaveli Tennis Club, aux côtés de la Fédération Togolaise de Tennis (FTT), fait de la Holidays Cup un rendez-vous sportif majeur pour Lomé.</p>
 </div>
 </div>
 </section>
 
-<section class="py-20 relative hero-bg" style="background-image:url('images/tennis-balls-background.avif')">
+<section class="py-20 md:py-28 bg-gray-50">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-3xl md:text-4xl font-heading font-bold mb-4 fade-in">Moments Forts</h2>
+<p class="text-gray-600 mb-10 fade-in">Quelques images de l'annonce et de l'ambiance de la 5ème édition de la Holidays Cup à Cacaveli.</p>
+</div>
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="gallery-item h-56 fade-in"><img src="images/WhatsApp Image 2026-07-23 at 22.35.19.jpeg" alt="Conférence de presse Holidays Cup" loading="lazy"><div class="gallery-overlay"><i class="ri-search-line text-white text-4xl"></i></div></div>
+<div class="gallery-item h-56 fade-in"><img src="images/WhatsApp Image 2026-07-23 at 22.35.25.jpeg" alt="Interview partenaire Holidays Cup" loading="lazy"><div class="gallery-overlay"><i class="ri-search-line text-white text-4xl"></i></div></div>
+<div class="gallery-item h-56 fade-in"><img src="images/WhatsApp Image 2026-07-23 at 22.35.20.jpeg" alt="Joueurs de la Holidays Cup entre deux matches" loading="lazy"><div class="gallery-overlay"><i class="ri-search-line text-white text-4xl"></i></div></div>
+<div class="gallery-item h-56 fade-in"><img src="images/WhatsApp Image 2026-07-23 at 22.35.35.jpeg" alt="Public de la Holidays Cup à Cacaveli" loading="lazy"><div class="gallery-overlay"><i class="ri-search-line text-white text-4xl"></i></div></div>
+</div>
+</section>
+
+<section class="py-20 relative hero-bg" style="background-image:url('images/WhatsApp Image 2026-07-23 at 22.35.27 (1).jpeg')">
 <div style="position:absolute;inset:0;background:rgba(13,26,10,0.9)"></div>
 <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
 <img src="images/holidays-cup-5ans-badge.png" alt="Holidays Cup 5 ans" class="h-24 w-auto mx-auto mb-6 bg-white rounded-2xl p-3">
 <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">5ème Édition - Holidays Cup !</h2>
 <p class="text-primary font-semibold text-lg mb-8">27 Juillet au 02 Août</p>
 <p class="text-gray-300 mb-4">Merci à nos partenaires pour leur soutien à cette édition anniversaire :</p>
-<p class="text-white font-semibold mb-10">TVS · Cacaveli Tennis Club · TopSaho · Ramco · AGL · Cristal · C.C.T Batimat · S.A.L.T · Togo Terminal</p>
+<p class="text-white font-semibold mb-10">TVS · Cacaveli Tennis Club · FTT · TopSaho · STAM · Ramco · AGL · Cristal · C.C.T Batimat · S.A.L.T</p>
 <div class="inline-flex flex-col sm:flex-row gap-4 items-center bg-white/10 border border-white/20 rounded-xl px-8 py-6">
 <p class="text-white text-sm">Contacts inscriptions :</p>
 <a href="tel:+22898600404" class="text-primary font-semibold hover:underline">+228 98 60 04 04 (Flooz)</a>
@@ -148,6 +164,7 @@ Votre navigateur ne prend pas en charge la lecture vidéo.
 <li><a href="index.html" class="hover:text-primary transition">Accueil</a></li>
 <li><a href="our-club.html" class="hover:text-primary transition">Notre Club</a></li>
 <li><a href="events.html" class="hover:text-primary transition">Tournoi</a></li>
+<li><a href="actualites.html" class="hover:text-primary transition">Actualités</a></li>
 <li><a href="membership.html" class="hover:text-primary transition">Adhésion</a></li>
 <li><a href="gallery.html" class="hover:text-primary transition">Galerie</a></li>
 <li><a href="contact.html" class="hover:text-primary transition">Contact</a></li>
